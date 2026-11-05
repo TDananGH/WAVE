@@ -1,0 +1,62 @@
+
+/* GENERAL PAGE STYLING */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+/* HEADER */
+
+header {
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+/* NAVIGATION */
+
+nav a {
+    margin-right: 15px;
+}
+
+/* WAVE ISSUE 6: LOW COLOR CONTRAST */
+
+.low-contrast {
+    color: #dddddd;
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+/* PAGE SECTIONS */
+
+section {
+    margin: 25px 0;
+}
+
+/* FORM ELEMENTS */
+
+input,
+textarea {
+    display: block;
+    margin: 12px 0;
+    padding: 8px;
+    width: 250px;
+}
+
+/* BUTTONS */
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #eeeeee;
+}
