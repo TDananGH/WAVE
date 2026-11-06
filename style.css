@@ -22,10 +22,9 @@ nav a {
     margin-right: 15px;
 }
 
-/* WAVE ISSUE 6: LOW COLOR CONTRAST */
 
 .low-contrast {
-    color: #dddddd;
+    color: #222222;
     background-color: #ffffff;
     padding: 8px;
 }
