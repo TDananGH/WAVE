@@ -25,7 +25,7 @@ nav a {
 /* WAVE ISSUE 6: LOW COLOR CONTRAST */
 
 .low-contrast {
-    color: #222222;
+    color: #dddddd;
     background-color: #ffffff;
     padding: 8px;
 }
