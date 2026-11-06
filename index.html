@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>My Student Portfolio</title>
@@ -16,7 +16,9 @@
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="https://www.niu.edu/">Visit</a>
+
+            <!-- WAVE ISSUE 1: Empty link -->
+            <a href="https://www.niu.edu/"></a>
         </nav>
     </header>
 
@@ -32,9 +34,9 @@
                 I am learning how to build websites using HTML and CSS.
             </p>
 
+            <!-- WAVE ISSUE 2: Missing alternative text -->
             <img
                 src="https://placehold.co/320x180"
-                alt="Image description"
                 width="320"
                 height="180"
             >
@@ -53,7 +55,8 @@
                 Here are some projects I have worked on.
             </p>
 
-            <button type="button">View My Projects</button>
+            <!-- WAVE ISSUE 3: Empty button -->
+            <button type="button"></button>
 
         </section>
 
@@ -67,16 +70,14 @@
 
             <form>
 
-            
-                 <label for="name:">Name:</label>
+                <!-- WAVE ISSUE 4: Missing form label -->
                 <input
                     type="text"
                     name="name"
                     placeholder="Enter your name"
                 >
 
-           
-                 <label for="message">Message:</label>
+                <!-- WAVE ISSUE 5: Missing form label -->
                 <textarea
                     name="message"
                     placeholder="Enter your message"
